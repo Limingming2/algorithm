@@ -9,6 +9,8 @@
 import XCTest
 @testable import SwiftDemo
 
+
+
 class SwiftDemoTests: XCTestCase {
 
     override func setUp() {
@@ -17,6 +19,11 @@ class SwiftDemoTests: XCTestCase {
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
+    
+    func testMethod() {
+        let scene = ViewController();
+        
     }
 
     func testExample() {
