@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var result:[Int] = []
         for i: Int in nums {
-            if i > target {
-                continue
-            }else {
+//            if i > target {
+//                continue
+//            }else {
                 let index:Int = nums.firstIndex(of: i)!
                 print(index);
                 
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
                         break
                     }
                 }
-            }
+//            }
         }
         return result
     }
